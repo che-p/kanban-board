@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  background-color: #0067a3;
+}
+
+.header__logo {
+  color: #fff;
+  margin: auto auto auto 14px;
+  font-size: 28px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.header__link:visited,
+.header__link:link,
+.header__link:active {
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media all and (max-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    background-color: #0079bf;
+  }
+
+  .header__logo {
+    display: none;
+  }
+}

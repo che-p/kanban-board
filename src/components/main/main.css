@@ -1,0 +1,16 @@
+.main {
+  height: 86vh;
+  background-color: #0079bf;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 0 32px;
+}
+
+/* MOBILE */
+@media all and (max-width: 1200px) {
+  .main {
+    height: auto;
+  }
+}

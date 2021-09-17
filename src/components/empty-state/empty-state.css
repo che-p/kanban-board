@@ -1,0 +1,14 @@
+.empty-state {
+  background-color: #0079bf;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 32px;
+}
+
+.empty-state a {
+  color: rgb(255, 128, 0);
+  font-size: 21px;
+  line-height: 24px;
+}

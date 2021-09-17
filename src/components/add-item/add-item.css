@@ -1,0 +1,43 @@
+.btn {
+  background-color: #ebecf0;
+  border: 2px none;
+  color: #5e6c84;
+  margin: auto auto 8px -6px;
+  padding: 5px 7px 5px 3px;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
+
+.btn-add-card {
+  margin: 8px auto 9px 12px;
+  padding-left: 5px;
+}
+
+.btn-disabled {
+  padding-left: 0;
+  color: #98a3b6;
+  margin: 8px auto 9px 13px;
+}
+
+.btn-disabled:hover {
+  cursor: default;
+  background-color: #ebecf0;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #0079bf;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin: 8px auto 9px 12px;
+}
+
+.btn-submit:hover {
+  background-color: #044a72;
+}

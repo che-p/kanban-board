@@ -1,0 +1,19 @@
+.new-item__input_visible {
+  width: 246px;
+  min-height: 35px;
+  max-height: 75px;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 15px 12px 15px;
+  padding: 8px 7px;
+  transition: box-shadow 0.1s;
+  overflow: hidden;
+}
+
+.new-item__input_visible:hover {
+  box-shadow: 0 0 0 1px #0079bf;
+}

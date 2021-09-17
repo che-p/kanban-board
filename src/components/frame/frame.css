@@ -1,0 +1,66 @@
+.task-container {
+  width: 282px;
+  max-height: 80vh;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.task-container__title {
+  margin: 12px auto 0 12px;
+}
+
+.tasks {
+  overflow-y: auto;
+  max-height: 60vh;
+  display: grid;
+  grid-template-columns: 246px;
+  grid-template-rows: auto;
+  grid-gap: 15px;
+  margin-top: 11px;
+  padding: auto auto 4px auto;
+  font-size: 18px;
+}
+
+.task {
+  width: 100%;
+  min-height: 35px;
+  max-height: 75px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto 12px auto;
+  padding: 8px;
+  transition: box-shadow 0.1s;
+  overflow: hidden;
+}
+
+.task:hover {
+  box-shadow: 0 0 0 4px #0079bf;
+}
+
+.task:nth-of-type(1) {
+  margin-top: 4px;
+}
+
+.task:last-of-type {
+  margin-bottom: 4px;
+}
+
+.task:visited,
+.task:link,
+.task:active {
+  color: #000;
+  text-decoration: none;
+}
+
+/* MOBILE */
+@media all and (max-width: 1200px) {
+  .task-container {
+    min-height: 80px;
+    max-height: 320px;
+  }
+
+  .tasks {
+    max-height: 200px;
+  }
+}
